@@ -1,0 +1,23 @@
+@keyframes anim {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+body {
+  background-color: red;
+  animation: anim 5s infinite alternate;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  text-shadow: 5px 5px 5px darkred;
+}
+p1 {
+  font-family: verdana;
+  font-size: 20px;
+}
