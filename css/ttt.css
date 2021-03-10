@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
 
 .button1 {
   background-color: transparent;
@@ -33,4 +34,10 @@ h1 {
   font-weight: 400;
   text-align: center;
   text-shadow: 5px 5px 5px rgb(90, 90, 90);
+}
+i{
+  font-family: 'fontAwesome';
+  content: "\f500";
+  background-color: transparent;
+  border: none;
 }
