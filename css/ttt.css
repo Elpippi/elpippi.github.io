@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+
+.button1 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: auto;
+    display: block;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  section {
+    text-align: center;
+  }
+  body {
+    background-image: url(tttw.jpg);
+    background-size: 25%;
+    background-repeat: repeat;
+  }
+  .div1 {
+    background-color: whitesmoke;
+    box-shadow: 8px 6px 3px black;
+    max-width: fit-content;
+    margin: auto;
+    overflow: auto;
+    padding: 3%;
+  }
+  h1 {
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(90, 90, 90);
+  }
