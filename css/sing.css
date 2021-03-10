@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid #333;
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Convertaa", sans-serif;
+  font-size: 70px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
+}
+
+.button1 {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20%;
+  margin: auto;
+  display: block;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.end-game {
+  padding: 30px;
+  width: 300px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20%;
+  font-family: "Comfortaa", sans-serif;
+}
+.divv {
+  position: absolute;
+  margin: auto;
+  top: -350px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+}
+@keyframes anim {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+body {
+  background-color: red;
+  animation: anim 5s infinite alternate;
+  font-family: "Comfortaa", sans-serif;
+}
