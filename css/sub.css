@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.button1 {
+  background-color: transparent;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 20%;
+  margin: auto;
+  display: block;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+section {
+  text-align: center;
+}
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  color: whitesmoke;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(90, 90, 90);
+}
+p {
+  font-family: "Comfortaa", sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 300;
+  font-size: large;
+}
+.div1 {
+  background-color: gray;
+  box-shadow: 8px 6px 3px black;
+  max-width: 650px;
+  min-height: 3000px;
+  margin: auto;
+  overflow: auto;
+  padding: 3%;
+}
+img {
+  width: 100%;
+}
+.fabi {
+    font-family: 'fontAwesome';
+    content: "\f16d";
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+.fabt{
+    font-family: 'fontAwesome';
+    content: "\f099";
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+.fabp{
+    font-family: 'fontAwesome';
+    content: "\f1ed";
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
