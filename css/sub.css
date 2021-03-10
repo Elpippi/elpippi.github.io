@@ -3,8 +3,8 @@
 
 .button1 {
   background-color: transparent;
-  color: whitesmoke;
-  border: 2px solid whitesmoke;
+  color: black;
+  border: 2px solid black;
   border-radius: 20%;
   margin: auto;
   display: block;
@@ -22,7 +22,7 @@ body {
   background-attachment: fixed;
 }
 h1 {
-  color: whitesmoke;
+  color: black;
   font-family: "Comfortaa", sans-serif;
   font-weight: 300;
   text-align: center;
